@@ -53,3 +53,7 @@ Write the `docker-compose.yml` file.
 Now, run the command `docker-compose up` to run the container.
 
 To stop the container, run `docker-compose down`.
+
+To run the container in detached mode:
+
+- `docker-compose up --build -d`.
